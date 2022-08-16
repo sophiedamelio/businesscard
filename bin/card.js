@@ -31,7 +31,7 @@ const data = {
 // Actual strings we're going to output
 const newline = '\n'
 const heading = `${data.name} / ${data.title}`
-const working = `${data.labelWorking} ${data.working}`
+const working = `${data.labelWorking}  ${data.working}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
