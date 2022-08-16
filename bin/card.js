@@ -39,9 +39,9 @@ const output =
   heading +
   newline +
   newline +
-  working +
+  //working +
   newline +
-  twittering +
+  //twittering +
   newline +
   githubing +
   newline +
