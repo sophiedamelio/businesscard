@@ -17,7 +17,7 @@ const data = {
   name: chalk.white('Sophie Damelio'),
   title: chalk.white('Software Engineer'),
   labelGitHub: chalk.white.bold('    GitHub:'),
-  github: chalk.cyan('https://github.com/sophiedamelio'),
+  github: chalk.gray('https://github.com/') + chalk.cyan('sophiedamelio'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
   linkedin: chalk.cyan('https://www.linkedin.com/in/sophiedamelio/'),
   labelWeb: chalk.white.bold('       Web:'),
@@ -53,4 +53,4 @@ const output =
   newline +
   carding
 
-console.log(chalk.green(boxen(output, options)))
+console.log(chalk.magenta(boxen(output, options)))
