@@ -14,27 +14,20 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Stefan Natter'),
-  handle: chalk.cyan('@natterstefan'),
-  labelWork: chalk.white.bold('      Work:'),
-  work: chalk.white('CEO and Co-Founder of marqant digital'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
-  twitter: chalk.cyan('https://twitter.com/natterstefan'),
+  name: chalk.white('Sophie Damelio'),
   labelGitHub: chalk.white.bold('    GitHub:'),
-  github: chalk.cyan('https://github.com/natterstefan'),
+  github: chalk.cyan('https://github.com/sophiedamelio'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  linkedin: chalk.cyan('https://linkedin.com/in/natterstefan'),
+  linkedin: chalk.cyan('https://www.linkedin.com/in/sophiedamelio/'),
   labelWeb: chalk.white.bold('       Web:'),
-  web: chalk.cyan('https://natterstefan.com'),
+  web: chalk.cyan('https://sophiedamelio.com/'),
   labelCard: chalk.white.bold('      Card:'),
-  npx: chalk.white('npx natterstefan'),
+  npx: chalk.white('npx sophiedamelio'),
 }
 
 // Actual strings we're going to output
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
-const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
