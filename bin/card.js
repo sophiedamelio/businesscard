@@ -38,8 +38,8 @@ const carding = `${data.labelCard}  ${data.npx}`
 // effectively
 const output =
   heading +
-  newline +
-  newline +
+  //newline +
+  //newline +
   //working +
   newline +
   //twittering +
