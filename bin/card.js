@@ -16,6 +16,8 @@ const options = {
 const data = {
   name: chalk.white('Sophie Damelio'),
   title: chalk.white('Software Engineer'),
+  labelWorking: chalk.white.bold('    Work:'),
+  working: chalk.white('Product Engineering Associate at Accenture Song'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   github: chalk.gray('https://github.com/') + chalk.blue('sophiedamelio'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
@@ -29,6 +31,7 @@ const data = {
 // Actual strings we're going to output
 const newline = '\n'
 const heading = `${data.name} / ${data.title}`
+const working = `${data.labelWorking} ${data.working}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
@@ -40,8 +43,8 @@ const output =
   heading +
   //newline +
   //newline +
-  //working +
-  newline +
+  working +
+  //newline +
   //twittering +
   newline +
   githubing +
