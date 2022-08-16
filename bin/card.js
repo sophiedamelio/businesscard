@@ -21,9 +21,9 @@ const data = {
   labelGitHub: chalk.white.bold('    GitHub:'),
   github: chalk.gray('https://github.com/') + chalk.blue('sophiedamelio'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  linkedin: chalk.gray('https://www.linkedin.com/in/') + chalk.cyan('sophiedamelio/'),
+  linkedin: chalk.gray('https://www.linkedin.com/in/') + chalk.cyan('sophiedamelio'),
   labelWeb: chalk.white.bold('       Web:'),
-  web: chalk.magenta('https://sophiedamelio.com/'),
+  web: chalk.magenta('https://sophiedamelio.com'),
   labelCard: chalk.white.bold('      Card:'),
   npx: chalk.white('npx sophiedamelio'),
 }
