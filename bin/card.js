@@ -16,7 +16,7 @@ const options = {
 const data = {
   name: chalk.white('Sophie Damelio'),
   title: chalk.white('Software Engineer'),
-  labelWorking: chalk.white.bold('    Work:'),
+  labelWorking: chalk.white.bold('      Work:'),
   working: chalk.white('Product Engineering Associate at Accenture Song'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   github: chalk.gray('https://github.com/') + chalk.blue('sophiedamelio'),
