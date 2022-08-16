@@ -15,6 +15,7 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('Sophie Damelio'),
+  title: chalk.white('Software Engineer'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   github: chalk.cyan('https://github.com/sophiedamelio'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
@@ -27,7 +28,7 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = `${data.name} / ${data.handle}`
+const heading = `${data.name} / ${data.title}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
